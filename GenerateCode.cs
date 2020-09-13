@@ -9,9 +9,10 @@ namespace generateCalcCode
             int amount = 51;
             string output = "";
 
-            for(int i = 1; i < amount; i++)
+            //i and j have to be set to 1 instead of 0 when creating code for division!!!!!
+            for(int i = 0; i < amount; i++)
             {
-                for (int j = 1; j < amount; j++)
+                for (int j = 0; j < amount; j++)
                 {
                     //add
                     //output += "if (num1 == " + i + " && num2 == " + j + ") \n{\n\treturn " + (i + j) + ";\n}";
